@@ -8,7 +8,7 @@ class User extends React.Component {
     }
 
     componentDidMount() {
-        fetch(`https://api.github.com/users/${this.props.params.username}?access_token=30f7c95f1dbf7f09e086a3e9543a321c7b1333ca`)
+        fetch(`https://api.github.com/users/${this.props.params.username}?access_token=${this.props.params.token}`)
         .then(response => response.json())
         .then(
             user => {
@@ -41,7 +41,7 @@ class User extends React.Component {
             {
                 name: 'Public Repos',
                 value: user.public_repos,
-                url: `/user/${this.props.params.username}/repos`
+                url: `/user/${this.props.params.username}/token/${this.props.params.token}/repos/`
             }
         ];
 

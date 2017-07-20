@@ -8,7 +8,7 @@ class Search extends React.Component {
     }
     _handleSubmit(e) {
         e.preventDefault();
-        history.push(`/user/${this.refs.userInput.value}`)
+        history.push(`/user/${this.refs.userInput.value}/token/${this.refs.token.value}`)
     }
 
     render() {
@@ -16,7 +16,8 @@ class Search extends React.Component {
             <div className="search-page">
                 <h2>Enter a GitHub username</h2>
                 <form onSubmit={this._handleSubmit}>
-                    <input ref="userInput" className="search-page__input" type="text" />
+                    <input ref="userInput" className="search-page__input" type="text" placeholder="github username"/>
+                    <input ref="token" className="search-page__input" type="text" placeholder="access token"/>
                     <button className="search-page__button">Search</button>
                 </form>
             </div>

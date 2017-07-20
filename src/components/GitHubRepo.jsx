@@ -1,4 +1,5 @@
 import React from 'react';
+import Axios from 'axios';
 
 
 class GitHubRepo extends React.Component {
@@ -7,6 +8,7 @@ class GitHubRepo extends React.Component {
         super();
         this.state = {closedpullrequests: []};
         this.fetchData = this.fetchData.bind(this);
+        this._handleSubmit = this._handleSubmit.bind(this);
     }
 
     componentDidMount() {
@@ -14,7 +16,9 @@ class GitHubRepo extends React.Component {
     }
 
     fetchData() {
-        fetch(`https://api.github.com/repos/${this.props.user.owner.login}/${this.props.user.name}/pulls?state=all&access_token=30f7c95f1dbf7f09e086a3e9543a321c7b1333ca`)
+        // const token = this.props.params.token;
+        console.log('githubrepo ' + this.props.token);
+        fetch(`https://api.github.com/repos/${this.props.repo.owner.login}/${this.props.repo.name}/pulls?state=all&access_token=${this.props.token}`)
             .then(response => response.json())
             .then(function (data) {
                 this.setState({
@@ -24,20 +28,24 @@ class GitHubRepo extends React.Component {
 
     }
 
+    _handleSubmit(event) {
+        event.preventDefault();
+        // alert('A name was submitted: ' + event);PUT /repos/:owner/:repo/pulls/:number/merge
+        Axios.put(`/repos/${this.props.repo.owner.login}/:repo/pulls/:number/merge`)
+    }
+
 
     render() {
-        console.log(this.state.closedpullrequests);
-
+        // console.log(this.state.closedpullrequests);
         return (
             <div className="star-button">
-                <a href={this.props.user.svn_url} className="eachRepo">
-                    {this.props.user.name}
+                <a href={this.props.repo.svn_url} className="eachRepo">
+                    {this.props.repo.name}
                 </a>
-                {this.props.user.stargazers_count} &#9733;
+                {this.props.repo.stargazers_count} &#9733;
                 {this.state.closedpullrequests.map(
                     (pullrequest, index) => {
                         return (
-                            <form onSubmit={this.handleSubmit}>
                                 <li key={index}>
                                     <div className="eachPullRequest">
                                         <div>
@@ -50,13 +58,9 @@ class GitHubRepo extends React.Component {
                                                target="_blank">Pull Request {pullrequest.title} is {pullrequest.state}
                                                 at {pullrequest.closed_at}</a>
                                             }
-                                            {pullrequest.state === 'open' &&
-                                            <input type="submit" value="Merge" />
-                                            }
                                         </div>
                                     </div>
                                 </li>
-                            </form>
                         );
                     }
                 )

@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b6605e9-e54f-48fd-b35d-d0e8098307b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/GitHubRepo.jsx" afterPath="$PROJECT_DIR$/src/components/GitHubRepo.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Repos.jsx" afterPath="$PROJECT_DIR$/src/components/Repos.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Search.jsx" afterPath="$PROJECT_DIR$/src/components/Search.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/User.jsx" afterPath="$PROJECT_DIR$/src/components/User.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +35,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+            <state relative-caret-position="255">
+              <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -40,26 +47,38 @@
       <file leaf-file-name="Repos.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Repos.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="55" column="63" lean-forward="false" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <marker date="1500512147000" expanded="true" signature="1396:1829" ph="..." />
+                <marker date="1500512147000" expanded="true" signature="1487:1810" ph="..." />
+                <marker date="1500512147000" expanded="true" signature="1708:1805" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GitHubRepo.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GitHubRepo.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/GitHubRepo.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="54" column="45" lean-forward="false" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="20" column="146" lean-forward="false" selection-start-line="20" selection-start-column="146" selection-end-line="20" selection-end-column="146" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <marker date="1500511929000" expanded="true" signature="1263:2753" ph="..." />
+                <marker date="1500511929000" expanded="true" signature="1335:1399" ph="..." />
+                <marker date="1500511929000" expanded="true" signature="1452:1459" ph="&amp;##9733;" />
+                <marker date="1500511929000" expanded="true" signature="1638:2649" ph="..." />
+                <marker date="1500511929000" expanded="true" signature="1708:2611" ph="..." />
+                <marker date="1500511929000" expanded="true" signature="1754:2568" ph="..." />
+                <marker date="1500511929000" expanded="true" signature="1930:2052" ph="..." />
+                <marker date="1500511929000" expanded="true" signature="2278:2475" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -85,15 +104,15 @@
       <file leaf-file-name="User.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/User.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="10" column="127" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="127" />
+            <state relative-caret-position="150">
+              <caret line="10" column="114" lean-forward="false" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="114" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1500421648000" expanded="true" signature="621:846" ph="..." />
-                <marker date="1500421648000" expanded="true" signature="1293:1396" ph="..." />
-                <marker date="1500421648000" expanded="true" signature="1337:1396" ph="..." />
-                <marker date="1500421648000" expanded="true" signature="1772:1851" ph="..." />
-                <marker date="1500421648000" expanded="true" signature="1919:1984" ph="..." />
+                <marker date="1500509291000" expanded="true" signature="607:832" ph="..." />
+                <marker date="1500509291000" expanded="true" signature="1313:1416" ph="..." />
+                <marker date="1500509291000" expanded="true" signature="1357:1416" ph="..." />
+                <marker date="1500509291000" expanded="true" signature="1792:1871" ph="..." />
+                <marker date="1500509291000" expanded="true" signature="1939:2004" ph="..." />
               </folding>
             </state>
           </provider>
@@ -102,10 +121,12 @@
       <file leaf-file-name="Search.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Search.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            <state relative-caret-position="135">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <marker date="1500509859000" expanded="true" signature="458:908" ph="..." />
+                <marker date="1500509859000" expanded="true" signature="560:889" ph="..." />
               </folding>
             </state>
           </provider>
@@ -115,11 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>PresentCapability</find>
-      <find>rops.children</find>
-      <find>public_repos</find>
-      <find>componentDidMount</find>
-      <find>f</find>
       <find>foll</find>
       <find>follo</find>
       <find>follow</find>
@@ -127,7 +143,6 @@
       <find>follower</find>
       <find>fetch</find>
       <find>followers</find>
-      <find>username</find>
       <find>props.params</find>
       <find>Infinite</find>
       <find>stats</find>
@@ -137,9 +152,20 @@
       <find>pullrequest</find>
       <find>li</find>
       <find>repos</find>
-      <find>state.repos</find>
-      <find>user-info__stat</find>
       <find>repos-page</find>
+      <find>30f7c95f1dbf7f09e086a3e9543a321c7b1333ca</find>
+      <find>userInput</find>
+      <find>u</find>
+      <find>userna</find>
+      <find>usernam</find>
+      <find>params.username</find>
+      <find>axios</find>
+      <find>username</find>
+      <find>handleSubmit</find>
+      <find>key</find>
+      <find>state.repos</find>
+      <find>index</find>
+      <find>user-info__stat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,13 +186,13 @@
         <option value="$PROJECT_DIR$/src/components/GithubRepo.jsx" />
         <option value="$PROJECT_DIR$/src/components/OpenedPullRequests.jsx" />
         <option value="$PROJECT_DIR$/src/components/ClosedPullRequests.jsx" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/User.jsx" />
         <option value="$PROJECT_DIR$/src/components/Search.jsx" />
-        <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/components/Repos.jsx" />
         <option value="$PROJECT_DIR$/src/components/GitHubRepo.jsx" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/components/Repos.jsx" />
       </list>
     </option>
   </component>
@@ -720,12 +746,12 @@
       <option name="presentableId" value="Default" />
       <updated>1500372069963</updated>
       <workItem from="1500372074201" duration="128000" />
-      <workItem from="1500372243630" duration="29182000" />
+      <workItem from="1500372243630" duration="39085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29310000" />
+    <option name="totallyTimeSpent" value="39213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="809" extended-state="0" />
@@ -755,7 +781,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1595136" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19599427" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -776,7 +802,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -799,24 +825,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <marker date="1500384946000" expanded="true" signature="86:236" ph="{&quot;react&quot;: &quot;^15.6.1&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -861,64 +869,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Repos.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="55" column="63" lean-forward="false" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/User.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="10" column="127" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="127" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <marker date="1500421648000" expanded="true" signature="621:846" ph="..." />
-            <marker date="1500421648000" expanded="true" signature="1293:1396" ph="..." />
-            <marker date="1500421648000" expanded="true" signature="1337:1396" ph="..." />
-            <marker date="1500421648000" expanded="true" signature="1772:1851" ph="..." />
-            <marker date="1500421648000" expanded="true" signature="1919:1984" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/logo.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Search.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,14 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GitHubRepo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="54" column="45" lean-forward="false" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -954,6 +901,105 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-router/es/InternalPropTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Repos.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding>
+            <marker date="1500512147000" expanded="true" signature="1396:1829" ph="..." />
+            <marker date="1500512147000" expanded="true" signature="1487:1810" ph="..." />
+            <marker date="1500512147000" expanded="true" signature="1708:1805" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="114" lean-forward="false" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="114" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1500509291000" expanded="true" signature="607:832" ph="..." />
+            <marker date="1500509291000" expanded="true" signature="1313:1416" ph="..." />
+            <marker date="1500509291000" expanded="true" signature="1357:1416" ph="..." />
+            <marker date="1500509291000" expanded="true" signature="1792:1871" ph="..." />
+            <marker date="1500509291000" expanded="true" signature="1939:2004" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Search.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1500509859000" expanded="true" signature="458:908" ph="..." />
+            <marker date="1500509859000" expanded="true" signature="560:889" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/GitHubRepo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="146" lean-forward="false" selection-start-line="20" selection-start-column="146" selection-end-line="20" selection-end-column="146" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1500511929000" expanded="true" signature="1263:2753" ph="..." />
+            <marker date="1500511929000" expanded="true" signature="1335:1399" ph="..." />
+            <marker date="1500511929000" expanded="true" signature="1452:1459" ph="&amp;##9733;" />
+            <marker date="1500511929000" expanded="true" signature="1638:2649" ph="..." />
+            <marker date="1500511929000" expanded="true" signature="1708:2611" ph="..." />
+            <marker date="1500511929000" expanded="true" signature="1754:2568" ph="..." />
+            <marker date="1500511929000" expanded="true" signature="1930:2052" ph="..." />
+            <marker date="1500511929000" expanded="true" signature="2278:2475" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

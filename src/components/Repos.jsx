@@ -1,7 +1,5 @@
 import React from 'react';
-import Infinite from 'react-infinite';
 import GitHubRepo from './GitHubRepo';
-import {Link} from 'react-router';
 
 
 class Repos extends React.Component {
@@ -29,8 +27,8 @@ class Repos extends React.Component {
         this.setState({
             loading: true
         });
-
-        fetch(`https://api.github.com/users/${this.props.params.username}/repos?page=${this.state.page}&per_page=50&access_token=30f7c95f1dbf7f09e086a3e9543a321c7b1333ca`)
+        const token = this.props.params.token;
+        fetch(`https://api.github.com/users/${this.props.params.username}/repos?page=${this.state.page}&per_page=50&access_token=${token}`)
             .then(response => response.json())
             .then(function (data) {
                 this.setState({
@@ -50,7 +48,8 @@ class Repos extends React.Component {
     }
 
     render() {
-        console.log(this.state.repos);
+        // console.log(this.state.repos);
+        const token = this.props.params.token;
         return (
             <div className="repos-page">
                 <h3>{this.props.params.username}'s repositories </h3>
@@ -58,7 +57,7 @@ class Repos extends React.Component {
                     {this.state.repos.map(
                         function (eachRepo) {
                             return (
-                                <GitHubRepo user={eachRepo} key={eachRepo.id}/>
+                                <GitHubRepo repo={eachRepo} key={eachRepo.id} token= {token}/>
                             );
                         }
                     )}
