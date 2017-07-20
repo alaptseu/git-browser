@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b6605e9-e54f-48fd-b35d-d0e8098307b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/GitHubRepo.jsx" afterPath="$PROJECT_DIR$/src/components/GitHubRepo.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Repos.jsx" afterPath="$PROJECT_DIR$/src/components/Repos.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Search.jsx" afterPath="$PROJECT_DIR$/src/components/Search.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/User.jsx" afterPath="$PROJECT_DIR$/src/components/User.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,21 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GitHubRepo.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GitHubRepo.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/GitHubRepo.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="146" lean-forward="false" selection-start-line="20" selection-start-column="146" selection-end-line="20" selection-end-column="146" />
+            <state relative-caret-position="519">
+              <caret line="81" column="1" lean-forward="false" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1500511929000" expanded="true" signature="1263:2753" ph="..." />
-                <marker date="1500511929000" expanded="true" signature="1335:1399" ph="..." />
-                <marker date="1500511929000" expanded="true" signature="1452:1459" ph="&amp;##9733;" />
-                <marker date="1500511929000" expanded="true" signature="1638:2649" ph="..." />
-                <marker date="1500511929000" expanded="true" signature="1708:2611" ph="..." />
-                <marker date="1500511929000" expanded="true" signature="1754:2568" ph="..." />
-                <marker date="1500511929000" expanded="true" signature="1930:2052" ph="..." />
-                <marker date="1500511929000" expanded="true" signature="2278:2475" ph="..." />
+                <marker date="1500515570000" expanded="true" signature="1431:3287" ph="..." />
+                <marker date="1500515570000" expanded="true" signature="1503:1567" ph="..." />
+                <marker date="1500515570000" expanded="true" signature="1620:1627" ph="&amp;##9733;" />
+                <marker date="1500515570000" expanded="true" signature="1806:3183" ph="..." />
+                <marker date="1500515570000" expanded="true" signature="1876:3145" ph="..." />
+                <marker date="1500515570000" expanded="true" signature="1922:3102" ph="..." />
+                <marker date="1500515570000" expanded="true" signature="2098:2220" ph="..." />
+                <marker date="1500515570000" expanded="true" signature="2446:2643" ph="..." />
               </folding>
             </state>
           </provider>
@@ -82,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="87" lean-forward="false" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -94,8 +89,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="125" column="16" lean-forward="false" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+            <state relative-caret-position="453">
+              <caret line="148" column="26" lean-forward="true" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -118,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Search.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Search.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Search.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <marker date="1500509859000" expanded="true" signature="458:908" ph="..." />
@@ -136,7 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>foll</find>
       <find>follo</find>
       <find>follow</find>
       <find>followe</find>
@@ -160,12 +154,13 @@
       <find>usernam</find>
       <find>params.username</find>
       <find>axios</find>
-      <find>username</find>
       <find>handleSubmit</find>
       <find>key</find>
-      <find>state.repos</find>
-      <find>index</find>
       <find>user-info__stat</find>
+      <find>username</find>
+      <find>button</find>
+      <find>index</find>
+      <find>state.repos</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,13 +181,13 @@
         <option value="$PROJECT_DIR$/src/components/GithubRepo.jsx" />
         <option value="$PROJECT_DIR$/src/components/OpenedPullRequests.jsx" />
         <option value="$PROJECT_DIR$/src/components/ClosedPullRequests.jsx" />
-        <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/User.jsx" />
         <option value="$PROJECT_DIR$/src/components/Search.jsx" />
-        <option value="$PROJECT_DIR$/src/components/GitHubRepo.jsx" />
         <option value="$PROJECT_DIR$/src/components/Repos.jsx" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/components/GitHubRepo.jsx" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -746,12 +741,12 @@
       <option name="presentableId" value="Default" />
       <updated>1500372069963</updated>
       <workItem from="1500372074201" duration="128000" />
-      <workItem from="1500372243630" duration="39085000" />
+      <workItem from="1500372243630" duration="43575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39213000" />
+    <option name="totallyTimeSpent" value="43703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="809" extended-state="0" />
@@ -885,25 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="125" column="16" lean-forward="false" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -936,12 +912,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="114" lean-forward="false" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="114" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1500509291000" expanded="true" signature="607:832" ph="..." />
+            <marker date="1500509291000" expanded="true" signature="1313:1416" ph="..." />
+            <marker date="1500509291000" expanded="true" signature="1357:1416" ph="..." />
+            <marker date="1500509291000" expanded="true" signature="1792:1871" ph="..." />
+            <marker date="1500509291000" expanded="true" signature="1939:2004" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="148" column="26" lean-forward="true" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="87" lean-forward="false" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/GitHubRepo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="81" column="1" lean-forward="false" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1500515570000" expanded="true" signature="1431:3287" ph="..." />
+            <marker date="1500515570000" expanded="true" signature="1503:1567" ph="..." />
+            <marker date="1500515570000" expanded="true" signature="1620:1627" ph="&amp;##9733;" />
+            <marker date="1500515570000" expanded="true" signature="1806:3183" ph="..." />
+            <marker date="1500515570000" expanded="true" signature="1876:3145" ph="..." />
+            <marker date="1500515570000" expanded="true" signature="1922:3102" ph="..." />
+            <marker date="1500515570000" expanded="true" signature="2098:2220" ph="..." />
+            <marker date="1500515570000" expanded="true" signature="2446:2643" ph="..." />
           </folding>
         </state>
       </provider>
@@ -958,47 +986,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/User.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="114" lean-forward="false" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="114" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <marker date="1500509291000" expanded="true" signature="607:832" ph="..." />
-            <marker date="1500509291000" expanded="true" signature="1313:1416" ph="..." />
-            <marker date="1500509291000" expanded="true" signature="1357:1416" ph="..." />
-            <marker date="1500509291000" expanded="true" signature="1792:1871" ph="..." />
-            <marker date="1500509291000" expanded="true" signature="1939:2004" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Search.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <marker date="1500509859000" expanded="true" signature="458:908" ph="..." />
             <marker date="1500509859000" expanded="true" signature="560:889" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GitHubRepo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="146" lean-forward="false" selection-start-line="20" selection-start-column="146" selection-end-line="20" selection-end-column="146" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <marker date="1500511929000" expanded="true" signature="1263:2753" ph="..." />
-            <marker date="1500511929000" expanded="true" signature="1335:1399" ph="..." />
-            <marker date="1500511929000" expanded="true" signature="1452:1459" ph="&amp;##9733;" />
-            <marker date="1500511929000" expanded="true" signature="1638:2649" ph="..." />
-            <marker date="1500511929000" expanded="true" signature="1708:2611" ph="..." />
-            <marker date="1500511929000" expanded="true" signature="1754:2568" ph="..." />
-            <marker date="1500511929000" expanded="true" signature="1930:2052" ph="..." />
-            <marker date="1500511929000" expanded="true" signature="2278:2475" ph="..." />
           </folding>
         </state>
       </provider>

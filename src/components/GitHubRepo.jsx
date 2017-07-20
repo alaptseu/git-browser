@@ -16,7 +16,6 @@ class GitHubRepo extends React.Component {
     }
 
     fetchData() {
-        // const token = this.props.params.token;
         console.log('githubrepo ' + this.props.token);
         fetch(`https://api.github.com/repos/${this.props.repo.owner.login}/${this.props.repo.name}/pulls?state=all&access_token=${this.props.token}`)
             .then(response => response.json())
@@ -28,10 +27,16 @@ class GitHubRepo extends React.Component {
 
     }
 
-    _handleSubmit(event) {
+    _handleSubmit(event, number) {
         event.preventDefault();
-        // alert('A name was submitted: ' + event);PUT /repos/:owner/:repo/pulls/:number/merge
-        Axios.put(`/repos/${this.props.repo.owner.login}/:repo/pulls/:number/merge`)
+        console.log('PR number is:', number);
+        Axios.put(`https://api.github.com/repos/${this.props.repo.owner.login}/${this.props.repo.name}/pulls/${number}/merge?access_token=${this.props.token}`)
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
     }
 
 
@@ -57,6 +62,11 @@ class GitHubRepo extends React.Component {
                                             <a href={pullrequest.url} className="closedPullRequest"
                                                target="_blank">Pull Request {pullrequest.title} is {pullrequest.state}
                                                 at {pullrequest.closed_at}</a>
+                                            }
+                                            {pullrequest.state === 'open' &&
+                                            <button onClick={(e)=>this._handleSubmit(e, pullrequest.number)} className="merge-button">
+                                                Merge
+                                            </button>
                                             }
                                         </div>
                                     </div>

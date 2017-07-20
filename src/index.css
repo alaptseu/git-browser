@@ -141,3 +141,11 @@ h1,h2,h3,h4,h5,h6 {
 .closedPullRequest {
   color: green;
 }
+
+.merge-button{
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+  border: 2px solid black;
+  background-color: green;
+  font-size: 10px;
+}
